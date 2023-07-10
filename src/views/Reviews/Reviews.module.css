@@ -1,0 +1,27 @@
+.spareTitle,
+.list {
+  margin-top: 20px;
+}
+
+.item {
+  padding: 10px 15px;
+  max-height: 250px;
+  border: 2px solid black;
+  border-radius: 5px;
+  list-style: none;
+  overflow: scroll;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.authorTitle {
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.author,
+.review {
+  font-weight: 500;
+}

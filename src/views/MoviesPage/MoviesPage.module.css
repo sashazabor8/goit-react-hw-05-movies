@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.input {
+  padding: 5px 5px;
+  margin-right: 10px;
+  width: 300px;
+  font-size: large;
+}
+
+.button {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: large;
+
+  transition: all 150ms linear;
+}
+
+.button:hover {
+  border: 1px solid #2196f3;
+  color: #2196f3;
+}
